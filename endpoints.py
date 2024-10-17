@@ -7,4 +7,4 @@ app = FastAPI()
 
 @app.get('/index', dependencies=[Depends(JWTBearer())])
 def index():
-    return {'message': 'Hello World'}
+    return {'message': 'Hello Worldd'}
